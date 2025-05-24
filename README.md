@@ -102,3 +102,8 @@ Para ver o **Top Score**, selecione a opção **2** no menu principal.
 
 - **Tiago Barros** – tgfb@cesar.school  
 - **Pamela Bezerra** – ptlb@cesar.school
+
+## Video do Jogo
+
+https://github.com/user-attachments/assets/0083e26f-b25b-48f1-95b6-0515c78d7f68
+
