@@ -6,7 +6,7 @@ Alunos:
 
 - Paulo Portella (phcp@cesar.school)
 - João Antônio Sampaio (jasf@cesar.school)
-- Juliana Van Der Linden ()
+- Juliana Van Der Linden (jvdlm@cesar.school)
 
 
 ## 🧩 Objetivo
