@@ -1,81 +1,109 @@
+
 # 🎮 Fruta que Caiu
 
 Um jogo casual feito em C, jogável diretamente no terminal. O objetivo é mover a cesta para capturar frutas que caem do topo da tela. Cada fruta tem uma pontuação específica. O jogador deve tentar obter a maior pontuação possível dentro de 60 segundos!
 
-Alunos:
+---
 
-- Paulo Portella (phcp@cesar.school)
-- João Antônio Sampaio (jasf@cesar.school)
-- Juliana Van Der Linden (jvdlm@cesar.school)
+## 👥 Alunos
 
+- **Paulo Portella** – phcp@cesar.school  
+- **João Antônio Sampaio** – jasf@cesar.school  
+- **Juliana Van Der Linden** – jvdlm@cesar.school
+
+---
 
 ## 🧩 Objetivo
 
-Desenvolver um jogo interativo em linha de comando utilizando os conceitos aprendidos na disciplina de Programação Imperativa e Funcional:
+Desenvolver um jogo casual interativo em linha de comando utilizando os conceitos aprendidos na disciplina de **Programação Imperativa e Funcional**, como:
 
-- Uso de `structs` e ponteiros
-- Alocação dinâmica de memória
-- Listas encadeadas
-- Leitura e escrita de arquivos
-- Manipulação de matriz (tela)
-- Timer, teclado e atualização gráfica com a biblioteca `cli-lib`
+- Uso de `structs` e ponteiros  
+- Alocação dinâmica de memória  
+- Listas encadeadas  
+- Leitura e escrita de arquivos  
+- Manipulação de matriz (posição de tela)  
+- Timer, teclado e tela com a biblioteca `cli-lib`
+
+---
 
 
 ## 🚀 Como Rodar o Jogo
 
-### 1. Clone ou baixe o projeto
+### 1. Pré-requisitos
 
-Se estiver usando Git:
-🔧 Como compilar o jogo
-Abra o terminal e entre na pasta do projeto.
+Certifique-se de ter:
 
-Execute:
+- O compilador `gcc` instalado
+- A biblioteca `ncurses` instalada
 
-Copiar
-Editar
+#### Instalação no Linux (Ubuntu/Debian):
+```bash
+sudo apt update
+sudo apt install build-essential libncurses5-dev libncursesw5-dev
+```
+
+#### Instalação no macOS (com Homebrew):
+```bash
+brew install ncurses
+```
+
+#### No Windows:
+Recomenda-se usar o WSL (Ubuntu) ou MSYS2, com `gcc` e `ncurses`.
+
+---
+
+### 2. Compile o jogo
+
+Abra o terminal dentro da pasta do projeto e rode:
+
+```bash
 make
-Se preferir fazer manualmente:
+```
 
-Copiar
-Editar
-gcc main.c cli-lib/screen.c cli-lib/keyboard.c cli-lib/timer.c -lncurses -o frutaquecaiu
+---
 
+### 3. Execute o jogo
 
-▶️ Como rodar o jogo
+Depois de compilar, execute o jogo com:
 
-No terminal, digite:
-
-Copiar
-Editar
-./frutaquecaiu
-Ou, se estiver usando o Makefile:
-
-Copiar
-Editar
+```bash
 make run
+```
 
-🎮 Como jogar
-← seta para esquerda: move a cesta para a esquerda
+---
 
-→ seta para direita: move a cesta para a direita
+### 4. Controles do jogo
 
-ENTER: encerra a partida a qualquer momento
+- `←` seta para esquerda: move a cesta para a esquerda  
+- `→` seta para direita: move a cesta para a direita  
+- `ENTER`: encerra a partida
 
-Pegue as frutas que caem e ganhe pontos
+---
 
-A partida dura 60 segundos
+## 🏆 Leaderboard
 
-🏆 Leaderboard
-Ao final de cada partida, sua pontuação é salva automaticamente no arquivo leaderboard.txt.
+Ao final de cada partida, sua pontuação é salva automaticamente no arquivo:
 
-Você pode visualizar o Top Score no menu principal (opção 2).
+```
+leaderboard.txt
+```
 
+Para ver o **Top Score**, selecione a opção **2** no menu principal.
 
-🧪 Observação
-O uso de emojis (como 🍌🍎) pode não funcionar bem em alguns terminais antigos.
+---
 
+## 🧪 Observações
 
-👨‍🏫 Professores
-Tiago Barros – tgfb@cesar.school
+- O uso de **emojis** (🍎🍌🍇) pode causar sobreposição ou erros de alinhamento em terminais antigos.
+- Recomendado utilizar:
+  - **iTerm2**
+  - **Terminal.app (macOS)**
+  - **Windows Terminal**
+  - **Ubuntu Terminal moderno**
 
-Pamela Bezerra – ptlb@cesar.school
+---
+
+## 👨‍🏫 Professores
+
+- **Tiago Barros** – tgfb@cesar.school  
+- **Pamela Bezerra** – ptlb@cesar.school
