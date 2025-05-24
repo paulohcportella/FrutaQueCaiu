@@ -94,7 +94,6 @@ Para ver o **Top Score**, selecione a opção **2** no menu principal.
 - O uso de **emojis** (🍎🍌🍇) pode causar sobreposição ou erros de alinhamento em terminais antigos.
 - Recomendado utilizar:
   - **Terminal.app (macOS)**
-  - **Windows Terminal**
   - **Ubuntu Terminal moderno**
 
 ---
