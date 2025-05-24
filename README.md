@@ -47,9 +47,6 @@ sudo apt install build-essential libncurses5-dev libncursesw5-dev
 brew install ncurses
 ```
 
-#### No Windows:
-Recomenda-se usar o WSL (Ubuntu) ou MSYS2, com `gcc` e `ncurses`.
-
 ---
 
 ### 2. Compile o jogo
